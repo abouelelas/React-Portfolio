@@ -1,35 +1,21 @@
 import React from 'react';
 import projects from "../data/projects.json";
-import Portfolio from "../components/Portfolio";
-
+import Card from "../components/Card";
+import {header} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 function Home (){
     console.log(projects);
   return (
       <>
- <section className="page-section bg-light" id="portfolio">
+  <header class="masthead">
         <div className="container">
-            <div className="text-center">
-                <h2 className="section-heading text-uppercase">Portfolio</h2>
-                <h3 className="section-subheading text-muted">Take a look at some of my projects.</h3>
-            </div>
-            <div className="row">
-{projects.map((proj, index) => {
-    return <Portfolio project={proj} key={index}/>
-
-})}
-    </div>
-    </div>
-    </section>
-</>
-  )
-
-
+            <div className="masthead-subheading">Welcome To Sarah's Portfolio!</div>
+            <div className="masthead-heading text-uppercase">Full-Stack Engineer</div>
+            <li> <Link className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" to= "/portfolio">Find Out More</Link></li>
+        </div>
+    </header>
+    </>
+)
 
 }
-
-
-
-
-
-
 export default Home;

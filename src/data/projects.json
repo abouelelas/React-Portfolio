@@ -2,14 +2,14 @@
     {
         "Name": "Project 1",
         "Description": "For our first project, my group and I developed an application from scratch that will display stock metrics pricing and daily news for a given company/ticker name. Our app will display all the given information that will help you make an informed decision on your investments with easy to use definitions in laymans terms that eliminates the confusing financial jargon.",
-        "Image": "assets/img/simpli-stocks-ss.png",
+        "Image": "simpli-stocks-ss.png",
         "DeployedLink": "https://black03mach.github.io/ticker_query/",
         "RepoLink": "https://github.com/black03mach/ticker_query"
     },
     {
         "Name": "Project 2",
         "Description": "For my second project, our group developed an application that helps users post their questions for other bloggers to answer as well as allowing the user to practice sample interview questions and test their knowledge on known concepts.",
-        "Image": "assets/img/Proj2SS.png",
+        "Image": "Proj2SS.png",
         "DeployedLink": "https://pure-temple-84221.herokuapp.com/",
         "RepoLink": "https://github.com/dlekwjd347/Project-2-2020"
     }

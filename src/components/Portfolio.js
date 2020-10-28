@@ -1,38 +1,29 @@
 import React from 'react';
-import { Button, Card,  } from 'react-bootstrap';
+import Card from './Card';
+import projects from '../data/projects.json';
 
 
+function Portfolio(props) {
 
-function Portfolio (props){
-  
   return (
-   
-    <div>
-    <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={props.project.Image} />
-  <Card.Body>
-    <Card.Title>{props.project.Name}</Card.Title>
-    
-    <Card.Text>
-    {props.project.Description}
-    </Card.Text>
-    <Card.Link href={props.project.DeployedLink} >Deployed/Website Link</Card.Link>
-    <Card.Link href={props.project.RepoLink}>Repo Link</Card.Link>
-  </Card.Body>
-</Card>
-  
 
-</div>
+    <section className="page-section bg-light" id="portfolio">
+      <div className="container">
+        <div className="text-center">
+          <h2 className="section-heading text-uppercase">Portfolio</h2>
+          <h3 className="section-subheading text-uppercase">Take a look at some of my projects.</h3>
+        </div>
+        <div className="row">
+          {projects.map((proj, index) => {
+            return <Card project={proj} key={index} />
+
+          })}
+        </div>
+      </div>
+    </section>
+
+
 
   )
-
-
-
 }
-
-
-
-
-
-
 export default Portfolio;
