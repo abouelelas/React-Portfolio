@@ -7,7 +7,8 @@ function Portfolio (props){
   
   return (
    
-    <div>
+    <div className="col-lg-4 col-sm-6 mb-4">
+
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={require(`../assets/img/${props.project.Image}`)} />
   <Card.Body>
