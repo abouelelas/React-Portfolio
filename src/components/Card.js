@@ -17,7 +17,7 @@ function Portfolio (props){
     <Card.Text>
     {props.project.Description}
     </Card.Text>
-    <Card.Link href={props.project.DeployedLink} >Deployed/Website Link</Card.Link>
+    <Card.Link href={props.project.DeployedLink} >Deployed Link</Card.Link>
     <br />
     <Card.Link href={props.project.RepoLink}>Repo Link</Card.Link>
   </Card.Body>

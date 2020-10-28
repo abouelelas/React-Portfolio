@@ -371,6 +371,8 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2rem;
+  color: white;
+
 }
 
 h3, .h3 {
@@ -2485,11 +2487,6 @@ fieldset:disabled a.btn {
   border-color: #fec503;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
-a{
-  color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
-}
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
   background-color: #fed136;
@@ -3495,6 +3492,7 @@ input[type=button].btn-block {
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  color: gold;
 }
 
 .custom-control {
@@ -10054,14 +10052,12 @@ img::-moz-selection {
   background: transparent;
 }
 
-.btn-xl {
+a,.btn-xl {
   padding: 1.25rem 2.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
-  font-weight: 700;
-  background-color: #fed136;
-
-
+  font-weight: bolder;
+  color: gold;
 }
 
 .btn-social {
@@ -10072,6 +10068,7 @@ img::-moz-selection {
   justify-content: center;
   padding: 0;
   border-radius: 100%;
+  color: gold;
 }
 
 #mainNav {
@@ -10467,10 +10464,11 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #657280;
+  
   /* background-image: url("../assets/img/background2.jpg"); */
   background-repeat: no-repeat;
   background-position: center;
+  color: gold;
 }
 section#contact .section-heading {
   color: #fff;
@@ -10523,6 +10521,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  color: #fed136;
+  font-weight: bolder;
+  color: gold;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

@@ -10,7 +10,7 @@ function Portfolio(props) {
     <section className="page-section bg-light" id="portfolio">
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase">Portfolio</h2>
+          <h1 className="section-heading text-uppercase">Portfolio</h1>
           <h3 className="section-subheading text-uppercase">Take a look at some of my projects.</h3>
         </div>
         <div className="row">
