@@ -8,7 +8,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio"
 import Background from "./assets/img/background2.jpg";
-import './App.css';
+// import './App.css';
 import  'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   console.log({Background});

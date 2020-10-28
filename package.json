@@ -8,6 +8,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.3",
+    "gh": "^2.8.8",
+    "pages": "0.0.16",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
@@ -16,6 +18,8 @@
     "react-scripts": "3.4.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

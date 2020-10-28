@@ -9,7 +9,7 @@ function About (props){
     <section className= "page-section" id="about">
             <div className= "container">
                 <div className= "text-center">
-                    <h2 className= "section-heading text-uppercase"></h2>
+                    <h2 className= "section-heading text-uppercase">Brand Statement</h2>
                     <h3 className= "section-subheading text-muted">Teaching is one of the most rewarding professions and I was so
                         proud to be a part of it. I held an engaging classroom environment that was fit for all students and
                         their learning styles. Students developed as learners and progressed with positive reinforcement. As
