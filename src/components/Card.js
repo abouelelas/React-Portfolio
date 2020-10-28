@@ -2,7 +2,6 @@ import React from 'react';
 import {  Card  } from 'react-bootstrap';
 // import './src/styles.css';
 
-
 function Portfolio (props){
   
   return (
