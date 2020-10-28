@@ -1,6 +1,6 @@
 import React from 'react';
 import projects from "../data/projects.json";
-import Card from "../components/Card";
+// import Card from "../components/Card";
 import {header} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 // import './styles.css';
