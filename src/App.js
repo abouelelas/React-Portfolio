@@ -1,25 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import './styles.css';
+import { HashRouter as Router, Route,Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio"
+import Background from "./assets/img/background2.jpg";
+// import './App.css';
+import  'bootstrap/dist/css/bootstrap.min.css';
 function App() {
+  console.log({Background});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Router>
+    
+      <div className="App background" style={{backgroundImage: `url(${Background})`}}>
+        <Nav />
+        <Switch>
+          <Route exact path={["/"]}>
+            <Home />
+          </Route>
+          <Route exact path={["/about"]}>
+            <About />
+          </Route>
+          <Route exact path={["/contact"]}>
+            <Contact />
+          </Route>
+          <Route exact path={["/portfolio"]}>
+            <Portfolio />
+          </Route>
+          </Switch>
+          <Footer />
+      </div>
+    </Router>
   );
 }
 
