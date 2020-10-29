@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import './sarah-styles.css';
 import { HashRouter as Router, Route,Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,7 +10,7 @@ import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio"
 import Background from "./assets/img/background2.jpg";
 // import './App.css';
-import  'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   console.log({Background});
   return (

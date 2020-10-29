@@ -2471,15 +2471,15 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-.btn-primary {
+.btn-primary, .btn-xl, .btn {
   color: #fff;
-  background-color: #fed136;
+  background-color: gold;
   border-color: #fed136;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #fec810;
-  border-color: #fec503;
+  border-color: #caa014;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -10057,7 +10057,7 @@ a,.btn-xl {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: bolder;
-  color: gold;
+
 }
 
 .btn-social {
