@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css';
 import { HashRouter as Router, Route,Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -10,13 +9,15 @@ import Portfolio from "./components/Portfolio"
 import Background from "./assets/img/background2.jpg";
 // import './App.css';
 import  'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
+
 function App() {
   console.log({Background});
   return (
     
     <Router>
     
-      <div className="App background" style={{backgroundImage: `url(${Background})`}}>
+      <div className="App background" style={{backgroundImage: `url(${Background})`, height: "100vh"}}>
         <Nav />
         <Switch>
           <Route exact path={["/"]}>
