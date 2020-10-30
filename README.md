@@ -10,6 +10,6 @@ Now that you've worked with React and have multiple projects to share, you'll be
 * [#updated-linkedin](https://www.linkedin.com/in/sarah-abouelela-006056b2/)
 
 Screenshots of deployed pages located in the assets file.
-* ![Screenshot](https://github.com/abouelelas/React-Portfolio/blob/main/src/assets/img/portfolioss1.png)
-* ![Screenshot]()
-* ![Screenshot](https://github.com/abouelelas/React-Portfolio/blob/main/src/assets/img/portfolioss3.png)
+* ![Screenshot](https://github.com/abouelelas/react-portfolio/blob/main/assets/img/reactportfolio1.png)
+* ![Screenshot](https://github.com/abouelelas/react-portfolio/blob/main/assets/img/reactportfolio2.png)
+* ![Screenshot](https://github.com/abouelelas/react-portfolio/blob/main/assets/img/reactportfolio3.png)
